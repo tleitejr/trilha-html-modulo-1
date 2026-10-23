@@ -1,62 +1,261 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <title>Módulo I - Primeiros Passos com HTML</title>
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+
+    <h1 id="topo">Módulo 1 - Primeiros Passos com HTML</h1>
     <hr />
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <h2 id="indice">Índice</h2>
+    <p>
+        <strong><u>INSTRUÇÕES:</u></strong> neste índice estão os tópicos que mais
+        entendi durante o módulo. Clique em qualquer item para ir direto ao assunto.
+        Para voltar, use o link <i>“Voltar ao índice”</i> presente ao final de cada seção.
+    </p>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listas">Diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#referencias">Links de referências</a></li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <hr />
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="historia">História dos computadores</h2>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <p>
+        A história da computação começa muito antes da eletrônica: ela nasce da
+        necessidade humana de <mark>calcular e registrar informações</mark>.
+        Desde o ábaco até os <abbr title="Personal Computer">PCs</abbr> atuais,
+        o computador passou por várias gerações.
+    </p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h3>Linha do tempo</h3>
+    <ol>
+        <li>
+            <strong>Ábaco</strong> (≈ 2400 a.C.) — primeiro instrumento de cálculo
+            de que se tem notícia, usado na Mesopotâmia.
+        </li>
+        <li>
+            <strong>Máquina analítica de Charles Babbage</strong> (século XIX) —
+            projeto que inspirou os computadores modernos. Ada Lovelace escreveu
+            o primeiro algoritmo pensado para essa máquina.
+        </li>
+        <li>
+            <strong><abbr title="Electronic Numerical Integrator and Computer">ENIAC</abbr></strong>
+            (1946) — um dos primeiros computadores eletrônicos, ocupava cerca de
+            <strong>180 m<sup>2</sup></strong> e pesava em torno de 30 toneladas.
+        </li>
+        <li>
+            <strong>Transistor e circuito integrado</strong> (1947–1958) —
+            reduziram o tamanho e aumentaram a confiabilidade das máquinas.
+        </li>
+        <li>
+            <strong>Microprocessadores e PCs</strong> (a partir de 1971) —
+            popularizaram a computação pessoal.
+        </li>
+        <li>
+            <strong>Web</strong> (1989–1991) — Tim Berners-Lee cria a
+            <abbr title="World Wide Web">WWW</abbr> e muda a forma como acessamos informação.
+        </li>
+    </ol>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <blockquote>
+        “A máquina analítica tece padrões algébricos como o tear de Jacquard
+        tece flores e folhas.” <br />
+        <small>— Ada Lovelace, 1843</small>
+    </blockquote>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <p>
+        Curiosidade: os computadores trabalham em base binária. Como
+        <strong>2<sup>10</sup> = 1024</strong>, dizemos que <strong>log<sub>2</sub>(1024) = 10</strong> —
+        ou seja, 10 bits conseguem representar 1024 valores diferentes.
+    </p>
+
+    <p><a href="#indice">⬆ Voltar ao índice</a></p>
+    <hr />
+
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+
+    <p>
+        <i>Client</i> (cliente) é o programa ou dispositivo que <strong>solicita</strong>
+        um recurso a outro programa. Em outras palavras, é o “lado do usuário” da
+        comunicação. <mark>Quando você acessa um site, seu navegador é o client.</mark>
+    </p>
+
+    <h3>Exemplos de clients</h3>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+        <li>Navegadores: Chrome, Firefox, Edge, Safari;</li>
+        <li>Aplicativos de e-mail (Outlook, Thunderbird);</li>
+        <li>Aplicativos móveis que consomem uma <abbr title="Application Programming Interface">API</abbr>;</li>
+        <li>Programas de FTP ou de mensagens instantâneas.</li>
     </ul>
+
+    <p>
+        O client envia uma <strong>requisição</strong> (request) e aguarda uma
+        <strong>resposta</strong> (response). A comunicação entre client e server
+        normalmente segue o protocolo <abbr title="HyperText Transfer Protocol">HTTP</abbr>.
+    </p>
+
+    <p><a href="#indice">⬆ Voltar ao índice</a></p>
+    <hr />
+
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+
+    <p>
+        Um <i>server</i> (servidor) é um computador ou software que
+        <strong>fornece</strong> recursos, dados ou serviços a outros programas.
+        Ele fica “escutando” requisições e responde a elas.
+    </p>
+
+    <p>
+        Antigamente era comum ver páginas com
+        <font color="#0099cc" face="Verdana">cores e fontes definidas diretamente na tag
+        <code>font</code></font>. Hoje essa tag está
+        <del>recomendada</del> <ins>obsoleta</ins> — usamos CSS para isso.
+        Mesmo assim, ela ainda é reconhecida pelos navegadores.
+    </p>
+
+    <h3>Tipos comuns de servidores</h3>
+    <ul>
+        <li>Servidor web (Apache, Nginx);</li>
+        <li>Servidor de banco de dados (MySQL, PostgreSQL);</li>
+        <li>Servidor de arquivos;</li>
+        <li>Servidor de e-mail.</li>
+    </ul>
+
+    <p>
+        <small>
+            Observação: um mesmo computador pode hospedar vários servidores ao
+            mesmo tempo, cada um em uma porta diferente.
+        </small>
+    </p>
+
+    <p><a href="#indice">⬆ Voltar ao índice</a></p>
+    <hr />
+
+    <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
+
+    <p>
+        Todo documento HTML segue uma estrutura mínima. Vamos ver cada parte,
+        do nível mais geral ao mais específico — e é aqui que usamos as tags de
+        título <strong>h3, h4, h5 e h6</strong> como exemplo de hierarquia.
+    </p>
+
+    <h3>&lt;!DOCTYPE html&gt;</h3>
+    <p>
+        Informa ao navegador que o documento usa HTML5. Não é uma tag de conteúdo,
+        apenas uma declaração.
+    </p>
+
+    <h4>&lt;html&gt;</h4>
+    <p>
+        Elemento raiz que envolve todo o documento. Recebe o atributo
+        <code>lang</code> para indicar o idioma (ex.: <code>lang="pt-BR"</code>).
+    </p>
+
+    <h5>&lt;head&gt;</h5>
+    <p>
+        Contém metadados: <code>charset</code>, <code>viewport</code>, título da aba,
+        links para CSS, etc. Nada aqui aparece diretamente na página.
+    </p>
+
+    <h6>&lt;body&gt;</h6>
+    <p>
+        É o corpo do documento — tudo o que o usuário vê (textos, imagens, links)
+        fica dentro dele.
+    </p>
+
+    <blockquote>
+        <p>Exemplo de esqueleto mínimo:</p>
+        <p>
+            &lt;!DOCTYPE html&gt;<br />
+            &lt;html lang="pt-BR"&gt;<br />
+            &nbsp;&nbsp;&lt;head&gt;&lt;title&gt;Minha página&lt;/title&gt;&lt;/head&gt;<br />
+            &nbsp;&nbsp;&lt;body&gt;&lt;h1&gt;Olá!&lt;/h1&gt;&lt;/body&gt;<br />
+            &lt;/html&gt;
+        </p>
+    </blockquote>
+
+    <p><a href="#indice">⬆ Voltar ao índice</a></p>
+    <hr />
+
+    <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+
+    <p>
+        As listas organizam itens. A grande diferença está na
+        <mark>semântica</mark>: a ordem importa ou não?
+    </p>
+
+    <h3>Lista ordenada — &lt;ol&gt;</h3>
+    <p>Use quando a sequência dos itens é importante (passo a passo, ranking):</p>
+    <ol>
+        <li>Abrir o editor de código;</li>
+        <li>Criar o arquivo <code>index.html</code>;</li>
+        <li>Escrever a estrutura básica;</li>
+        <li>Salvar e abrir no navegador.</li>
+    </ol>
+
+    <h3>Lista não ordenada — &lt;ul&gt;</h3>
+    <p>Use quando a ordem <u>não</u> altera o significado (itens de uma compra, tags):</p>
+    <ul>
+        <li>HTML;</li>
+        <li>CSS;</li>
+        <li>JavaScript.</li>
+    </ul>
+
+    <p>
+        <small>
+            Dica: as duas tags aceitam apenas <code>&lt;li&gt;</code> como filho direto.
+        </small>
+    </p>
+
+    <p><a href="#indice">⬆ Voltar ao índice</a></p>
+    <hr />
+
+    <h2 id="referencias">Links de referências</h2>
+    <p>
+        <strong><u>INSTRUÇÕES:</u></strong> links para páginas que falam sobre os
+        assuntos acima. Todos abrem em uma nova aba/janela.
+    </p>
+    <ul>
+        <li>
+            <a href="https://www.dio.me" target="_blank" rel="noopener noreferrer">
+                DIO — Digital Innovation One
+            </a>
+        </li>
+        <li>
+            <a href="https://www.w3.org" target="_blank" rel="noopener noreferrer">
+                W3C — World Wide Web Consortium
+            </a>
+        </li>
+        <li>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
+                MDN Web Docs — HTML
+            </a>
+        </li>
+        <li>
+            <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener noreferrer">
+                W3Schools — HTML Tutorial
+            </a>
+        </li>
+    </ul>
+
+    <p><a href="#indice">⬆ Voltar ao índice</a></p>
+    <hr />
+
+    <p>
+        <small>
+            Desafio concluído — Módulo I. Bora para o Módulo II: Conceitos Básicos! 🚀
+        </small>
+    </p>
 
 </body>
 </html>
